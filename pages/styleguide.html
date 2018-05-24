@@ -10,5 +10,160 @@
 </head>
 <body>
     <h1>Digital Styleguide</h1>
+
+    <p> Op deze pagina komt de digitale styleguide die een overzicht geeft over hoe de website er zal uitzien. 
+        het is een digitaal huisstijlhandboek. Hierin komen alle elementen van de gebruikersinterface voor die gebruikt kunnen worden op de website (logo, kleuren, navigatie, titel, tussentitels, tekst, links, knoppen, iconen …).</p>
+    
+        <h2>Logo</h2>
+    <P>
+            Het logo bestaat uit een hert met geometrische vormen. 
+ <ul>
+           <li> Beeldmerk</li>
+            geometrische vormen met basiskleuren die samen de vorm van een hert
+           </ul>
+           <ul> 
+          <li>Woordmerk</li> 
+            onder de afbeelding zal in kapitalen REDDEER staan. lettertype pt sans bold.
+    </ul> 
+   <ul> 
+       
+</ul>
+</P>
+    <div align="center">
+        <img src="../pages/images/Poster-geometrische-dieren-Edelhert.jpg" alt=a fbeelding 3 width="700" hspace="10">
+    </div>
+    <hr>
+    <h2>Kleuren</h2>
+    <div class="Kleuren">
+        <table>
+           
+    
+            <tr>
+                <td align="center">Lichtgroen<br>Rgb(197, 221, 110<br> Hex #C5DD6E <br> hsl(73, 62.0%, 64.9%)
+                </td>
+                <td align="center">donkergroen<br>Rgb	(83, 93, 47)<br>Hex	#535D2F <br> Hsl	(73, 32.9%, 27?5%)
+                       
+                    </td>
+                <td align="center">wit<br>Rgb	(255, 255, 255) <br>Hex	#FFFFFF <br>Hsl	(0, 0%, 100%)
+                </td> 
+                <td align="center">zwart<br>Rgb	(0, 0, 0) <br> Hex	#000000 <br> Hsl	(0, 0%, 0%) </td>
+            </tr>
+           
+        </table>
+    </div>
+    <hr>
+
+    <h2>Typografie </h2>
+   <table frame="box" rules="all">
+   <tr> 
+        <td>
+            <div class="tekst1"><h3>Pt Sans Bold </h3></div> 
+        </td>
+        <td> Corpsgrootte 39 pt  </td>
+        <td>Dit lettertype wordt gebruik bij titels</td>
+    </tr> 
+
+   <tr> <td><div class="tekst2">
+        <h3>Pt Sans Bold Italic</h3>
+    </div>
+</td> 
+ <td>Corpsgrootte 28pt </td>
+ <td> Dit lettertype word gebruikt voor subtitels</td>
+</tr>
+  
+
+   <tr> <td><div class="tekst3">
+    <h3>Pt Sans regular</h3>
+</div> 
+</td>  
+ <td>Corpsgrootte 14 pt </td>
+ <td> Dit lettertype word gebruikt voor alle doorlopende teksten</td>
+</tr>
+
+
+
+
+
+
+</table> 
+<hr>
+<div class="Navigatie"><h2>Navigatie</h2>
+
+
+<div class="navigatiebalk">
+
+        <button class="home">Home</button>
+
+
+        <button class="About">About</button>
+
+
+
+        <button class="media">Media</button>
+
+
+        <button class="shop">Shop</button>
+
+
+        <button class="kalender">Kalender</button>
+
+        
+
+</div></div>
+
+<button onclick="Inschrijven()">registreren</button>
+
+<p id="inschrijving"></p>
+
+<script>
+function Inschrijven() {
+    var email = prompt("Vul hier uw e-mailadres in.", "Voorbeeld@gmail.com");
+    if (email != null & email != "Voorbeeld@gmail.com") {
+        document.getElementById("inschrijving").innerHTML =
+        "U ontvangt onze berichten op volgend e-mailadres:"+email;
+    }
+}
+</script>
+    
+    
+    <h2>Input </h2>
+    <input type='text' name='name' />
+    <hr>
+    <h2>Links</h2>
+    <a href="none">Lees Meer</a>
+    <hr>
+    <h2>Iconen</h2>
+    <img src="../pages/images/facebook.png" alt=a fbeelding 3 width="40" hspace="10">
+    <img src="../pages/images/instagram-colourful-icon.png" alt=a fbeelding 3 width="40" hspace="10">
+    <img src="../pages/images/Youtube-logo-2017-640x480.png" alt=a fbeelding 3 width="40" hspace="10">
+    <img src="../pages/images/580b57fcd9996e24bc43c53e.png" alt=a fbeelding 3 width="40" hspace="10">
+    
+
+    <hr>
+    <h2>Contact </h2>
+    <form action="contact" method="post" autocomplete="off">
+        <span style="display: none;">
+            <input type='text' name='message1' />
+            <br>
+            <br>
+        </span>
+        <label> naam </label>
+        <input type='text' name='name' />
+        <br>
+        <br>
+        <label>email-adres</label>
+        <input type='email' name='email' required />
+        <br>
+        <br>
+        <label>Vul hier je bericht in</label>
+        <textarea style="height: 4em;" type='text' name='mymessage' required></textarea>
+        <br>
+        <br>
+        <input type='submit' class="btn" value='Verstuur Bericht ' />
+    </form>
+    </h3>
+    <hr>
+  
+    <script>alert("Welkom bij REDDEER.")</script>
 </body>
 </html>
