@@ -12,7 +12,7 @@ body {
 }
 
 img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
+    max-width: 100%; 
 }
 
 
@@ -98,8 +98,7 @@ a {
     color: darkgray;
 }
 
-/* Onderlijnen van links wanneer er overgaan wordt met muis. 
-bron: https://stackoverflow.com/questions/44673496/how-to-animate-a-link-underline-with-border-bottom-so-that-there-is-space-betwe?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa */
+
 a:before {
     content: "";
     position: absolute;
@@ -124,4 +123,35 @@ hr {
     margin-right: 30%;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.home {
+    background-color: black;
+    color: #C5DD6E ;
+}
+.About {
+    background-color: black;
+    color: white;
+}
+.shows {
+    background-color: black;
+    color: white;
+}
+.media {
+    background-color: black;
+    color: white;
+}
+.Shop {
+    background-color: black;
+    color: white;
+}
+.Contact {
+    background-color: black;
+    color: white;
+}
+.text1 {
+    font-family: 'PT Sans', sans-serif;
+}
+.studentinfo{
+    background-color: #C5DD6E;
 }
